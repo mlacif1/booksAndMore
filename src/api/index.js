@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const BOOKS = "data"; // this is the folder in the public folder where the books are
+const GRAPHQL_BASE = "http://localhost:3000/?";
 
 export const getBooks = () => {
   return axios.get(`${BOOKS}/data.json`, {
@@ -8,7 +9,16 @@ export const getBooks = () => {
   });
 };
 
-// // Updat to use correct book addition endpoint
+export const getBooksGraphql = (data) => {
+  return axios.post(`${GRAPHQL_BASE}`, data, {
+        crossdomain: true,
+        header: {
+          'Content-Type': 'application/json'
+        }
+      });
+};
+
+// // Update to use correct book addition endpoint
 // export const addBooks = (book) => {
 //   return axios.post(`${BOOKS}`, book, {
 //     crossdomain: true,

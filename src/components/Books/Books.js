@@ -11,7 +11,7 @@ import {
   Button,
 } from "@material-ui/core";
 import Navigation from "../Navigation/Navigation";
-import { getBooks } from "../../api";
+import { getBooks, getBooksGraphql } from "../../api";
 import VirtualizedTable from "../VirtualizedTable/VirtualizedTable";
 import { Column } from "react-virtualized";
 import BookSkeleton from "../BookSkeleton/BookSkeleton";
@@ -27,6 +27,9 @@ import sortWorker from "workerize-loader!./sortWorker"; // eslint-disable-line i
 import filterWorker from "workerize-loader!./filterWorker"; // eslint-disable-line import/no-webpack-loader-syntax
 import { useSelector, useDispatch } from "react-redux";
 import { setFilterBy } from "../../actions/bookAction";
+import { lastFridayForMonth } from "../../util";
+// this import is used to generate the graphql json
+// import { download } from "../../util";
 
 const moment = require("moment");
 
@@ -37,7 +40,9 @@ const Books = (props) => {
   const [booksToUse, setBooksToUse] = useState([]);
   const [loading, setLoading] = useState(true);
   const [processing, setProcessing] = useState(false);
-  const [currentPage, setCurrentPage] = useState(0);
+  const [allPagesCount, setAllPagesCount] = useState(0);
+  const [globalCurrentPage, setGlobalCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1);
   const booksPerPage = 4;
   const [scrollIndex, setScrollIndex] = useState(undefined);
 
@@ -52,10 +57,27 @@ const Books = (props) => {
 
   useEffect(() => {
     setLoading(true);
-    getBooks()
+
+    const request = {
+      query: `
+        query allBooks {
+          allBooks(page: ${globalCurrentPage}, perPage: 1000) {
+            name
+            genre
+            image
+            date
+            author
+          },
+          _allBooksMeta {
+            count
+          }
+        }`,
+    };
+    getBooksGraphql(request)
       .then(({ data }) => {
-        setBooks(data);
-        setBooksToUse(data);
+        setBooks(data.data.allBooks);
+        setBooksToUse(data.data.allBooks);
+        setAllPagesCount(data.data._allBooksMeta.count);
         setLoading(false);
       })
       .catch((e) => {
@@ -64,6 +86,26 @@ const Books = (props) => {
         }
         setLoading(false);
       });
+
+    // Old way to load all the data
+    // getBooks()
+    //   .then(({ data }) => {
+    //     console.log(data);
+    //     setBooks(data);
+    //     setBooksToUse(data);
+    //     setLoading(false);
+    //     // to generate the json file fro graphql, uncomment this
+    //     // const jsonObject = {
+    //     //   "books": data
+    //     // };
+    //     // download(jsonObject, 'books.json', 'application/json');
+    //   })
+    //   .catch((e) => {
+    //     if (e.response) {
+    //       console.log(e.response);
+    //     }
+    //     setLoading(false);
+    //   });
 
     if (window.Worker) {
       sortWorkerInstance = sortWorker();
@@ -85,6 +127,33 @@ const Books = (props) => {
       setFilterWorkerInstance(newfilterWorkerInstance);
     }
   }, []);
+
+  useEffect(() => {
+    setLoading(true);
+    const request = {
+      query: `
+        query allBooks {
+          allBooks(page: ${globalCurrentPage}, perPage: 1000) {
+            name
+            genre
+            image
+            date
+            author
+          }
+        }`,
+    };
+    getBooksGraphql(request)
+      .then(({ data }) => {
+        setBooksToUse(data.data.allBooks);
+        setLoading(false);
+      })
+      .catch((e) => {
+        if (e.response) {
+          console.log(e.response);
+        }
+        setLoading(false);
+      });
+  }, [globalCurrentPage]);
 
   const onRowsScroll = (props) => {
     const nextPage = Math.ceil(props.stopIndex / booksPerPage);
@@ -115,6 +184,10 @@ const Books = (props) => {
     const newScrollToIndex = (pageNumber - 1) * booksPerPage;
     setCurrentPage(pageNumber);
     setScrollIndex(newScrollToIndex);
+  };
+
+  const onGlobalPageChange = (pageNumber) => {
+    setGlobalCurrentPage(pageNumber);
   };
 
   const onSort = (sortBy, sortDirection) => {
@@ -241,27 +314,124 @@ const Books = (props) => {
   });
 
   const onFilterClick = () => {
-    if (books && books.length > 0 && filterWorkerInstance) {
-      if (processing) {
-        console.log("about to terminate");
-        filterWorkerInstance.terminate();
-      }
-      setProcessing(true);
-      console.log("starting to filter");
-      filterWorkerInstance.filterBooks(books, filterByArray);
-    }
+    // Filtering done on graphql"
+    setProcessing(true);
+
+    const genreFilter = filterByArray.find((f) => f.key === "genre");
+    const genreBooksFilter =
+      genreFilter && genreFilter.value
+        ? `, filter: { ${genreFilter.key}: "${genreFilter.value}" }`
+        : "";
+
+    const request = {
+      query: `
+        query allBooks {
+          allBooks(page: 1, perPage: 1000 ${genreBooksFilter}) {
+            name
+            genre
+            image
+            date
+            author
+          }
+        }`,
+    };
+    getBooksGraphql(request)
+      .then(({ data }) => {
+        setBooksToUse(data.data.allBooks);
+        setLoading(false);
+        setProcessing(false);
+      })
+      .catch((e) => {
+        if (e.response) {
+          console.log(e.response);
+        }
+        setLoading(false);
+        setProcessing(false);
+      });
+
+    // this is the old way to filter using Web workers
+    // if (books && books.length > 0 && filterWorkerInstance) {
+    //   if (processing) {
+    //     console.log("about to terminate");
+    //     filterWorkerInstance.terminate();
+    //   }
+    //   setProcessing(true);
+    //   console.log("starting to filter");
+    //   filterWorkerInstance.filterBooks(books, filterByArray);
+    // }
   };
 
   const onSetFilters = (newFilters) => {
-    if (books && books.length > 0 && filterWorkerInstance) {
-      if (processing) {
-        console.log("about to terminate");
-        filterWorkerInstance.terminate();
-      }
-      setProcessing(true);
-      console.log("starting to filter");
-      filterWorkerInstance.filterBooks(books, newFilters);
-    }
+    // Filtering done on graphql"
+    setProcessing(true);
+
+    const genreFilter = newFilters.find((f) => f.key === "genre");
+    const dateFilter = newFilters.find((f) => f.key === "date");
+    const genreBooksFilter =
+      genreFilter && genreFilter.value
+        ? `, filter: { ${genreFilter.key}: "${genreFilter.value}" }`
+        : "";
+
+    const request = {
+      query: `
+        query allBooks {
+          allBooks(page: 1, perPage: 1000 ${genreBooksFilter}) {
+            name
+            genre
+            image
+            date
+            author
+          }
+        }`,
+    };
+    getBooksGraphql(request)
+      .then(({ data }) => {
+        // here we need to filter based on date
+        // in graphql this is not available yet
+        if (dateFilter) {
+          const filteredAllBooks = data.data.allBooks.filter((book) => {
+            let bookIsGood = true;
+            if (dateFilter.value === "friday") {
+              if (moment(book.date).isSame(lastFridayForMonth(book.date))) {
+                bookIsGood = false;
+              }
+            }
+            if (dateFilter.value === "halloween") {
+              const b = moment(book.date);
+              if (b.month() + 1 !== 10) {
+                bookIsGood = false;
+              }
+              if (b.date() !== 31) {
+                bookIsGood = false;
+              }
+            }
+            return bookIsGood;
+          });
+          setBooksToUse(filteredAllBooks);
+        } else {
+          setBooksToUse(data.data.allBooks);
+        }
+        setLoading(false);
+        setProcessing(false);
+      })
+      .catch((e) => {
+        if (e.response) {
+          console.log(e.response);
+        }
+        setLoading(false);
+        setProcessing(false);
+      });
+
+    // this is the old way
+    // if (books && books.length > 0 && filterWorkerInstance) {
+    //   if (processing) {
+    //     console.log("about to terminate");
+    //     filterWorkerInstance.terminate();
+    //   }
+    //   setProcessing(true);
+    //   console.log("starting to filter");
+    //   filterWorkerInstance.filterBooks(books, newFilters);
+    // }
   };
 
   return (
@@ -271,21 +441,11 @@ const Books = (props) => {
         <Paper elevation={5} className={styles.mainContainer}>
           {!loading && books && books.length > 0 && (
             <Box>
-              <Box className={styles.headerContainer}>
-                <Paginator
-                  currentPage={currentPage}
-                  onPageChange={(number) => onPageChange(number)}
-                  pageCount={parseInt(booksToUse.length / booksPerPage, 10)}
-                />
-                {processing && (
-                  <Box className={styles.progressBox}>
-                    <Typography>Operation in progress...</Typography>
-                    <Typography>
-                      Feel free to use the data while we are working on this.
-                    </Typography>
-                  </Box>
-                )}
-              </Box>
+              <Paginator
+                currentPage={globalCurrentPage}
+                onPageChange={(number) => onGlobalPageChange(number)}
+                pageCount={parseInt(allPagesCount / 1000 - 1, 10)}
+              />
               <Box className={styles.tableContainer}>
                 <Box className={styles.filterContainer}>
                   {filterList}
@@ -303,7 +463,7 @@ const Books = (props) => {
                       onSetFilters([
                         {
                           key: "genre",
-                          value: "horror",
+                          value: "Horror",
                         },
                         {
                           key: "date",
@@ -320,7 +480,7 @@ const Books = (props) => {
                       onSetFilters([
                         {
                           key: "genre",
-                          value: "finance",
+                          value: "Finance",
                         },
                         {
                           key: "date",
@@ -331,6 +491,21 @@ const Books = (props) => {
                   >
                     Friday Finance
                   </Button>
+                </Box>
+                <Box className={styles.headerContainer}>
+                  <Paginator
+                    currentPage={currentPage}
+                    onPageChange={(number) => onPageChange(number)}
+                    pageCount={parseInt(booksToUse.length / booksPerPage, 10)}
+                  />
+                  {processing && (
+                    <Box className={styles.progressBox}>
+                      <Typography>Operation in progress...</Typography>
+                      <Typography>
+                        Feel free to use the data while we are working on this.
+                      </Typography>
+                    </Box>
+                  )}
                 </Box>
                 <VirtualizedTable
                   rowHeight={rowHeight}
@@ -464,5 +639,5 @@ const useStyles = makeStyles((theme) => ({
   },
   filterControl: {
     marginLeft: 8,
-  }
+  },
 }));

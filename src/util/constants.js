@@ -6,11 +6,11 @@ export const AVAILABLE_SORT_BY = {
 };
 export const AVAILABLE_FILTER_BY = {
   BOOK_GENRE: { dataType: "text", dataKey: "genre", dataLabel: "Book Genre" },
-  AUTHOR_GENDER: {
-    dataType: "checkbox",
-    dataKey: "author.gender",
-    dataLabel: "Author Is Male?",
-  },
+  // AUTHOR_GENDER: {
+  //   dataType: "checkbox",
+  //   dataKey: "author.gender",
+  //   dataLabel: "Author Is Male?",
+  // },
 };
 export const SORT_DIRECTIONS = {
   ASC: "ASC",
