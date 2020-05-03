@@ -1,3 +1,9 @@
+On master branch - using Web workers:
+Just yarn install and yarn start
+
+
+On master-graphql branch follow the below instructions:
+
 To run this project:
 0) make sure that you are in the project folder
 1) yarn install (or npm install)
@@ -8,6 +14,27 @@ The website contains 3 pages:
 1) Home - a brief introduction and welcome to the app
 2) Books - the list of the 1 million books
 3) About - the about section of the website
+
+
+To run the graphql server, the easiest way to do it is:
+0) yarn install -g json-graphql-server
+   - this will install json-graphql-server that will be run based on 
+   the json file containing the database skeleton
+1) if not generated, generate the database "books" table skeleton
+   - in components/Books.js uncomment the code needed to modify the existing data.json
+   - when the app is running, a json file with the db schema will be downloaded
+   - don't forget to comment the code once done
+   !IMPORTANT
+   The trick is that for this to work we need the following json:
+   {
+     "books": [...array returned in data.json]
+   }
+3) json-graphql-server books.json
+   - this command will start a graphql server on port 3000
+
+To skip step 1 - you can use the json file found zipped:
+books.zip
+
 
 Implemeting the 1 million books app was a bit tricky.
 Luckily react-virtualized came to the rescue.
@@ -28,8 +55,7 @@ A proposal for this is using graphql for example.
 
 Nevertheless, we can use Web Workers to delegate expensive computations to a separate thread, thus achieving non-blocking frontend.
 
-Unit tests could be also implemented using jest.
-
+Also, please ignore the code duplication
 
 
 

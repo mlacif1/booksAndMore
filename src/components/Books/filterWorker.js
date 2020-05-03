@@ -23,7 +23,6 @@ export const filterBooks = (books, filterByArray) => {
       }
       if (filterBy.key === "date") {
         if (filterBy.value === "friday") {
-          console.log(moment(book.date), lastFridayForMonth(book.date));
           if (moment(book.date).isSame(lastFridayForMonth(book.date))) {
             bookIsGood = false;
             break;
