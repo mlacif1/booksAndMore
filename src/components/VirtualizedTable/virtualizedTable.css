@@ -1,0 +1,36 @@
+.table-container .ReactVirtualized__Table__headerRow {
+  background: #eee;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-container .ReactVirtualized__Table__row {
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-radius: 2px;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-container .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.table-container .ReactVirtualized__Grid__innerScrollContainer .ReactVirtualized__Table__row:nth-child(odd) {
+    background-color: #ddd;
+}
+
+.table-container .ReactVirtualized__Table__rowColumn {
+  white-space: initial;
+  text-align: center;
+}
+
+.table-container .ReactVirtualized__Table__headerColumn {
+  white-space: initial;
+  text-align: center;
+}

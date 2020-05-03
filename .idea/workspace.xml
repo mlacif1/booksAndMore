@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a1218ac-5e28-4ec5-ad3b-bb0ea523da6d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/31.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/33.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/34.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/35.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/35.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/36.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/37.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/38.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/39.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/41.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/43.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/44.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/45.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/46.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/47.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/49.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/51.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/52.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/53.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/55.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/56.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/58.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/59.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/61.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/62.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/63.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/65.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/66.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/67.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/68.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/69.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/70.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/71.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/73.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/74.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/close_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/house_paint_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/house_paint_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/img-sp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/offer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/star1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/tag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/products.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/creditly.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/easy-responsive-tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/flexslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/counterup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/creditly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/easyResponsiveTabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jquery.wmuSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/minicart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/move-top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/okzoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/waypoints.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gibraltar-table-tennis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/PHPMailer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/php/sendEmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/GamesPlayed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/HomepageSection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/LoginPopUp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Ranking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/RankingPoints.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Results.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/SendEmails.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/TournamentPlayers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/fonts/linea-basic-10.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/fonts/linea-basic-10.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/fonts/linea-basic-10.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/fonts/linea-basic-10.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/icon-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/hero-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/hero.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo-green-1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo-green-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo-green-small-1x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo-green-small-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/moda.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-1-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-2-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-3-large.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/nat-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/video.webm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducer_fetch_chalenge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducer_fetch_tournaments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducer_played_games.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducer_render_view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducers_players.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducers_results.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducers_schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/reducers/reducers_teams.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/footer.js" afterPath="$PROJECT_DIR$/src/components/footer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header.js" afterPath="$PROJECT_DIR$/src/components/header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants.js" afterPath="$PROJECT_DIR$/src/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/video.mp4" afterPath="$PROJECT_DIR$/src/images/house_paint.jpg" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/php/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1598">
+              <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+              <folding>
+                <element signature="e#79#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="e#79#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+              <folding>
+                <element signature="e#79#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/banner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="71" lean-forward="false" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+              <folding>
+                <element signature="e#79#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-facebook-login-component/examples/helloworld/public/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81736">
+              <caret line="4808" column="5" lean-forward="false" selection-start-line="4808" selection-start-column="5" selection-end-line="4808" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search inpu</find>
+      <find>search input[</find>
+      <find>width: 15px</find>
+      <find>flex</find>
+      <find>carouse</find>
+      <find>agileits_header</find>
+      <find>slider</find>
+      <find>wthree_banner_bottom_left_grid</find>
+      <find>i</find>
+      <find>src=</find>
+      <find>.w3l_banner_nav_right_banner</find>
+      <find>backgroun</find>
+      <find>2.jpg</find>
+      <find>/2.jpg</find>
+      <find>background:ur</find>
+      <find>wthree_banner_bottom_left_grid</find>
+      <find>background:url</find>
+      <find>bran</find>
+      <find>36918e</find>
+      <find>84C639</find>
+      <find>con</find>
+      <find>contatc</find>
+      <find>.w3l_offers a</find>
+      <find>favicon</find>
+      <find>kitche</find>
+      <find>slick-slide</find>
+      <find>slick</find>
+      <find>shopping ca</find>
+      <find>view you</find>
+      <find>fav</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/GamesPlayed.js" />
+        <option value="$PROJECT_DIR$/php/PHPMailer/composer.json" />
+        <option value="$PROJECT_DIR$/php/sendGrid/.env.sample" />
+        <option value="$PROJECT_DIR$/php/PHPMailer/examples/ssl_options.phps" />
+        <option value="$PROJECT_DIR$/php/sendEmail.php" />
+        <option value="$PROJECT_DIR$/src/components/ChallengeUser.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/NextGames.js" />
+        <option value="$PROJECT_DIR$/src/components/expiredChallenges.js" />
+        <option value="$PROJECT_DIR$/src/components/TournamentsList.js" />
+        <option value="$PROJECT_DIR$/src/components/TournamentPlayers.js" />
+        <option value="$PROJECT_DIR$/src/reducers/reducer_fetch_tournaments.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/reducers/reducers_players.js" />
+        <option value="$PROJECT_DIR$/src/components/Tournaments.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/RankingPoints.js" />
+        <option value="$PROJECT_DIR$/src/fire.js" />
+        <option value="$PROJECT_DIR$/static.json" />
+        <option value="$PROJECT_DIR$/gibraltar-table-tennis/public/index.html" />
+        <option value="$PROJECT_DIR$/src/reducers/reducers_teams.js" />
+        <option value="$PROJECT_DIR$/src/components/teams.js" />
+        <option value="$PROJECT_DIR$/gibraltar-table-tennis/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Teams.js" />
+        <option value="$PROJECT_DIR$/src/components/schedule.js" />
+        <option value="$PROJECT_DIR$/public/php/config/database.php" />
+        <option value="$USER_HOME$/Desktop/okta-php-core-rest-api-example-master/bootstrap.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/src/reducers/reducers_schedule.js" />
+        <option value="$PROJECT_DIR$/src/components/HomepageSection.js" />
+        <option value="$PROJECT_DIR$/gibraltar-table-tennis/src/components/footer.js" />
+        <option value="$PROJECT_DIR$/src/components/Schedule.js" />
+        <option value="$PROJECT_DIR$/src/components/LoginPopUp.js" />
+        <option value="$PROJECT_DIR$/src/components/Ranking.js" />
+        <option value="$PROJECT_DIR$/src/constants.js" />
+        <option value="$PROJECT_DIR$/src/components/Results.js" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/css/flexslider.css" />
+        <option value="$PROJECT_DIR$/src/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/components/productus.js" />
+        <option value="$PROJECT_DIR$/src/components/banner.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/footer.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/menu.js" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/src/components/products.js" />
+        <option value="$PROJECT_DIR$/src/components/header.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/build/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="9" />
+    <option name="y" value="37" />
+    <option name="width" value="1869" />
+    <option name="height" value="996" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="koality-print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="koality-print" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="reducers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="SearchEverywhereHistoryKey" value="favi&#9;FILE&#9;file://D:/projects/koality-print/node_modules/react-scripts/template/public/favicon.ico&#10;data&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/public/src/System/DatabaseConnector.php&#10;PACK&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/package.json&#10;HEADER&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/src/components/header.js&#10;RANKIN&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/src/components/Ranking.js&#10;LOGIN&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/src/components/LoginPopUp.js&#10;login&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/src/components/LoginPopUp.js&#10;pack&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/package.json&#10;RankingPoints&#9;FILE&#9;file://D:/projects/gibraltar-table-tennis/src/components/RankingPoints.js" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\koality-print\src\images" />
+      <recent name="D:\projects\koality-print\src\components" />
+      <recent name="D:\projects\koality-print\src" />
+      <recent name="D:\projects\koality-print\src\css" />
+      <recent name="D:\projects\gibraltar-table-tennis\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\gibraltar-table-tennis\public" />
+      <recent name="D:\projects\gibraltar-table-tennis\public\php\api" />
+      <recent name="C:\wamp64\www\bravo-ai-stil\src" />
+      <recent name="C:\wamp64\www\bravo-ai-stil\src\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a1218ac-5e28-4ec5-ad3b-bb0ea523da6d" name="Default" comment="" />
+      <created>1520764138700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520764138700</updated>
+      <workItem from="1520764141621" duration="48778000" />
+      <workItem from="1521145839978" duration="8238000" />
+      <workItem from="1521291861142" duration="7899000" />
+      <workItem from="1523096808544" duration="24577000" />
+      <workItem from="1523699720392" duration="6457000" />
+      <workItem from="1523720585957" duration="48612000" />
+      <workItem from="1524167878919" duration="3095000" />
+      <workItem from="1524334251050" duration="16086000" />
+      <workItem from="1525204218466" duration="7999000" />
+      <workItem from="1526845307478" duration="3232000" />
+      <workItem from="1533499425048" duration="4777000" />
+      <workItem from="1533587410976" duration="600000" />
+      <workItem from="1534191404610" duration="6711000" />
+      <workItem from="1576350572313" duration="18277000" />
+      <workItem from="1577350549912" duration="10011000" />
+      <workItem from="1577906723296" duration="30351000" />
+      <workItem from="1578256520585" duration="5266000" />
+      <workItem from="1578335580138" duration="2059000" />
+      <workItem from="1578337694379" duration="1782000" />
+      <workItem from="1578339499933" duration="11519000" />
+      <workItem from="1578833261963" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="299407000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="9" y="37" width="1869" height="996" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29573664" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/LoginPopUp.js</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/gibraltar-table-tennis/src/actions/index.js</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Schedule.js</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gibraltar-table-tennis/src/actions/index.js" />
+    <entry file="file://$PROJECT_DIR$/public/php/Schedule/schedule.php" />
+    <entry file="file://$PROJECT_DIR$/public/src" />
+    <entry file="file://$USER_HOME$/Desktop/okta-php-core-rest-api-example-master/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/userContoller.php" />
+    <entry file="file://$USER_HOME$/Desktop/okta-php-core-rest-api-example-master/src/TableGateways/PersonGateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/php/api/config/database.php" />
+    <entry file="file://$PROJECT_DIR$/src/components/SendEmails.js" />
+    <entry file="file://$USER_HOME$/Desktop/okta-php-core-rest-api-example-master/src/Controller/PersonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/src/System/DatabaseConnector.php" />
+    <entry file="file://$PROJECT_DIR$/public/src/Controller/PersonController.php" />
+    <entry file="file://$PROJECT_DIR$/public/index.php" />
+    <entry file="file://$PROJECT_DIR$/gibraltar-table-tennis/public/php/sendEmail.php" />
+    <entry file="file://$PROJECT_DIR$/public/php/sendEmail.php" />
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducers_players.js" />
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducers_schedule.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-responsive-modal/lib/index.es.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-responsive-modal/lib/index.js" />
+    <entry file="file://$PROJECT_DIR$/gibraltar-table-tennis/src/components/header.js" />
+    <entry file="file://$PROJECT_DIR$/gibraltar-table-tennis/src/components/footer.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/HomepageSection.js" />
+    <entry file="file://$PROJECT_DIR$/public/UserController.php" />
+    <entry file="file://$PROJECT_DIR$/src/components/Schedule.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/LoginPopUp.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Ranking.js" />
+    <entry file="file://$PROJECT_DIR$/public/src/System/DatabaseConnector.php" />
+    <entry file="file://$PROJECT_DIR$/src/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Results.js" />
+    <entry file="file://$PROJECT_DIR$/src/fire.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/flexslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/easing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="278" column="1" lean-forward="true" selection-start-line="278" selection-start-column="1" selection-end-line="278" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+          <folding>
+            <element signature="e#79#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81736">
+          <caret line="4808" column="5" lean-forward="false" selection-start-line="4808" selection-start-column="5" selection-end-line="4808" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="71" lean-forward="false" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+          <folding>
+            <element signature="e#79#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-facebook-login-component/examples/helloworld/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/template/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#79#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding>
+            <element signature="e#79#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

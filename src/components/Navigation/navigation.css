@@ -1,0 +1,37 @@
+.menu-container {
+    padding: 0 8%;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 48px;
+    background-color: #222;
+    margin-bottom: 16px;
+    z-index: 999;
+    color: #ccc;
+}
+
+.menu-item{
+    cursor: pointer;
+    color: grey;
+    margin-left: 24px;
+}
+.menu-item a {
+    color: grey;
+}
+
+.menu-item-selected {
+    text-decoration: underline;
+    color: white;
+}
+
+.menu-item-selected a{
+    text-decoration: underline;
+    color: white;
+}
