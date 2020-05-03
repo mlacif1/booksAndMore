@@ -1,19 +1,18 @@
 On master branch - using Web workers:
 Just yarn install and yarn start
-
-
-On master-graphql branch follow the below instructions:
-
-To run this project:
-0) make sure that you are in the project folder
-1) yarn install (or npm install)
-3) yarn start (or npm start)
-
 A new browser window should open.
 The website contains 3 pages:
 1) Home - a brief introduction and welcome to the app
 2) Books - the list of the 1 million books
 3) About - the about section of the website
+
+
+On graphql-master branch follow the below instructions:
+
+To run this project:
+0) make sure that you are in the project folder
+1) yarn install (or npm install)
+3) yarn start (or npm start)
 
 
 To run the graphql server, the easiest way to do it is:
@@ -57,7 +56,7 @@ Nevertheless, we can use Web Workers to delegate expensive computations to a sep
 
 Also, please ignore the code duplication
 
-
+Unit tests with Jest can be found in master branch
 
 
 
