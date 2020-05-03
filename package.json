@@ -26,6 +26,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "1.1.1",
     "react-slick": "^0.25.2",
+    "react-testing-library": "5.1.0",
     "react-timestamp": "^4.4.0",
     "react-virtualized": "9.9.0",
     "redux": "^3.7.2",
@@ -37,7 +38,7 @@
     "workerize-loader": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build && rm build/static/js/*.map",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
